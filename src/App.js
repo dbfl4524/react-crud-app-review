@@ -41,6 +41,7 @@ const App = () => {
     handleAlert({ type: "danger", text: "아이템이 삭제되었습니다." });
   };
 
+  Object.assign();
   const handleSubmit = (e) => {
     e.preventDefault();
     if (charge !== "" && amount > 0) {
